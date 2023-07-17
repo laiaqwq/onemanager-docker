@@ -8,4 +8,4 @@ https://github.com/qkqpttgf/OneManager-php
 
 ## 使用
 
-`docker run -d --name onemanager -v onemanager:/var/www/html/.data -p 80:80 laiqwq/onemanager-docker:latest`
+`$ docker run -d --name onemanager -v onemanager:/var/www/html/.data -p 80:80 laiqwq/onemanager-docker:latest`
