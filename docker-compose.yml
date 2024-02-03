@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  onemanager:
+    image: 'myonemanager:latest'
+    volumes:
+      - ./volumes/onenav/data:/var/www/html/.data
+    ports:
+      - "10480:80"
+    restart: unless-stopped
